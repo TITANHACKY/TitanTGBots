@@ -60,3 +60,24 @@ li a {
   background-color: #7f0b99;
   color: white;
 }
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+}
+
+.stats_item {
+  margin: 5px;
+  font-weight: bolder;
+  background-color: #f8f8f8;
+  padding: 5px;
+  flex: 1;
+}
+
+@media (max-width: 800px) {
+  .stats_item {
+    flex: 100%;
+  }
+}
