@@ -120,7 +120,7 @@ li a {
 }
 
 @media (max-width: 800px) {
-  .stats_item {
+  .bot_item {
     flex: 100%;
   }
 }
