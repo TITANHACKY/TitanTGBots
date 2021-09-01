@@ -20,6 +20,7 @@ li a {
 }
 
 .fa {
+  color: #000131;
   transition-duration: 0.4s;
   transform-style: preserve-3d;
 }
@@ -59,6 +60,15 @@ li a {
 .visit_us_button:hover {
   background-color: #7f0b99;
   color: white;
+}
+
+.chevron-down {
+  color: #000131;
+  transition-duration: 0.4s;
+}
+
+.chevron-down:hover {
+  color: orange;
 }
 
 .stats {
