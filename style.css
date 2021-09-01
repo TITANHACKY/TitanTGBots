@@ -2,6 +2,18 @@ header {
 
 }
 
+a {
+  color: #000131;
+  font-style: normal;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: coral;
+}
+
 .nav {
   list-style-type: none;
   margin: 0;
@@ -26,7 +38,7 @@ li a {
 }
 
 .fa:hover{
-  color: orange;
+  color: coral;
 }
 
 .header {
@@ -79,6 +91,27 @@ li a {
 }
 
 .stats_item {
+  margin: 10px;
+  font-weight: bolder;
+  background-color: #f8f8f8;
+  padding: 5px;
+  flex: 1;
+}
+
+@media (max-width: 800px) {
+  .stats_item {
+    flex: 100%;
+  }
+}
+
+.bot-lists {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bot_item {
   margin: 5px;
   font-weight: bolder;
   background-color: #f8f8f8;
@@ -90,4 +123,12 @@ li a {
   .stats_item {
     flex: 100%;
   }
+}
+
+.icon-button {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
 }
